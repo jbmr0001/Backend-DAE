@@ -1,0 +1,15 @@
+## Fichero de configuración para UjaCoin durante testing
+
+#spring.datasource.url: jdbc:mysql://localhost:3306/juandb_backup
+
+#spring.datasource.username: root
+#spring.datasource.password: root
+
+#spring.jpa.properties.javax.persistence.schema-generation.database.action: drop-and-create
+
+
+spring.datasource.url: jdbc:h2:~/h2db/h2juandb;AUTO_SERVER=TRUE
+spring.jpa.show-sql: true
+jpa.generate-ddl: true
+spring.jpa.generate-ddl: true
+spring.jpa.properties.javax.persistence.schema-generation.database.action: drop-and-create
